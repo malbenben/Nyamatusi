@@ -1,0 +1,373 @@
+.hero-section{
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.induldge{
+    font-size: 130px;
+}
+.nyamutusi{
+    font-size: 30px;
+    color: red;
+    font-family: papyrus;
+    font-style: italic;
+}
+.navbar{
+    border-bottom: white 1px solid;
+    font-weight: 400;
+}
+.nav-link{
+    position: relative;
+    font-size: 20px;
+    top: 20%;
+    right: 40%;
+}
+.ham img{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    padding-left: 15px;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.ham{
+    display: flex;
+   position: relative;
+   left: 150px;
+  
+
+}
+.icons{
+    position: relative;
+    left: 60px;
+    bottom: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.icons img{
+  height: 60px;
+  width: 60px;
+}
+
+.stories-section .col-md-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.col-md-4 .img-fluid{
+   padding: 200px 0px;
+}
+.stories-section {
+   padding: 120px;
+ 
+}
+.stories-section .text2{
+ margin-top: 145px;
+ 
+   
+ }
+ .stories-section button{
+    background-color: orangered;  
+    color: white;
+    border: none;
+    width: 130px;
+    height: 60px;
+   
+ }
+ .col-md-3 .img-fluid{
+    padding: 15px 0px;
+ }
+ .activities{
+    display: flex;
+    flex-direction: row;
+    padding: 120px;
+  
+   
+
+ }
+ .activity1{
+    background-image: url(../img/Rectangle\ 17.png);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    
+ }
+ .activity2{
+    background-image: url(../img/Rectangle\ 16.png);
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    
+   
+ }
+ .activity3{
+    background-image: url(../img/Rectangle\ 18.png);
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+ }
+ .activity4{
+    background-image: url(../img/Rectangle\ 19.png);
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+ }
+ .activity5{
+    background-image: url(../img/Rectangle\ 20.png);
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+ }
+ .activities .col-md-12{
+    display: flex;
+    gap: 10px;
+  
+
+
+ }
+
+ .div1{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   padding: 0px 30px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.223);
+ }
+
+ .div1 p{
+    color: white;
+ }
+ .div2{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.324)
+   
+ }
+ .div1 p{
+ 
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+
+
+ }
+ .down{
+    position: relative;
+    top: 210px;
+ }
+ h1{
+    font-weight: 300;
+ }
+ .giraffes{
+    width: 250px;
+    height: 300px;
+ }
+ .wildlife{
+   display: flex;
+   flex-direction: row;
+   padding: 120px;
+ }
+ .wildlife .col-md-12{
+   display: flex;
+   gap: 5px;
+ }
+ .pix{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+  position: relative;
+  bottom: 100px;
+ }
+ .col-md-12 .giraffes{
+   position: relative;
+   top: 230px;
+ }
+ .col-md-12 .bucks{
+   position: relative;
+   top: 280px;
+ }
+ .col-md-12 .zebras{
+   position: relative;
+   top: 140px;
+ }
+ .wildlife p{
+ position: relative;
+ top: 100px;
+ }
+ .iteneries{
+   display: flex;
+   padding: 120px;
+   
+ }
+ .iteneries .col-md-6{
+   display: flex;
+  
+ }
+ .tour{
+   width: 800px;
+   height: 417px;
+  
+
+ }
+ .iteneries-info{
+   display: flex;
+   flex-direction: row;
+   text-align: flex-start;
+   padding: 20px;
+   background-color: orangered;
+   color: white;
+   line-height: 29px;
+ }
+ .ammount{
+   border-bottom: 1px solid;
+   border-top: 1px solid;
+   margin: 10px 0px;
+ }
+ .col-md-6 .destinations{
+   display: flex;
+   gap: 20px;
+ }
+ .iteneries h1{
+   margin: 80px 0px;
+ }.destination1{
+   background-image: url(../img/Rectangle\ 36.png);
+  background-position: center;
+  background-size: cover;
+   width: 280px;
+   height: 417px;
+   color: white;
+   font-style: italic;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   font-size: 13px;
+   
+
+ }
+.destination2{
+   background-image: url(../img/Rectangle\ 37.png); 
+   background-position: center;
+   background-size: cover;
+   width: 280px;
+   height: 417px;
+   color: white;
+   font-style: italic;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   font-size: 13px;
+}
+h4{
+   opacity: 90%;
+   font-weight: 200;
+}
+.jacob{
+   background-image: url(../img/Rectangle\ 46.png);
+   background-position: center;
+   background-size: cover;
+   width: 280px;
+   height: 417px;
+}
+.brown{
+   background-image: url(../img/Rectangle\ 45.png);
+   background-position: center;
+   background-size: cover;
+   width: 280px;
+   height: 417px;
+}
+.testimonials .col-md-6{
+   border: 1px solid orangered;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   font-size: 15px;
+}
+.testimonials .row{
+   display: flex;
+  justify-content: space-around;
+   
+}
+.testimonials{
+   padding: 120px;
+}
+.overlayimg{
+   position: relative;
+   right: 5%;
+   background-image: url(../img/Rectangle\ 49.png);
+   background-position: center;
+   background-size: cover;
+   width: 280px;
+   height: 417px;
+   display: flex;
+   color: white;
+   align-items: flex-end;
+   justify-content: center;
+}
+.testimonials h1{
+   margin: 60px 0px;
+}
+  .line{
+   height: 90px;
+   width: 200px;
+   color: orangered;
+  
+}
+.rectangle1{
+   height: 290px;
+}
+.rectangle2{
+   width: 100%;
+   height: 255px;
+}
+.gallery{
+   padding: 120px;
+}
+.gallery h1{
+   margin: 60px 0px;
+}
+.footerend{
+   height: 45vh;
+   background-color: orangered;
+
+}
+.footerend p{
+   color: white;
+}
+.footerend h5{
+   color: white;
+}
+.footer{
+   display: flex;
+   flex-direction: row;
+   gap: 120px;
+   padding: 90px 0px;
+}
+form input{
+   border: none;
+   background-color: white;
+   padding: 10px 30px;
+
+}
+.submitbutton{
+   background-color: black;
+   color: white;
+
+}
